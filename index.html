@@ -131,24 +131,22 @@
         <h2>Formulario de Satisfacción</h2>
         <p>Cuéntanos tu opinión sobre la página y nuestras tradiciones:</p>
 
-        <form action="https://formspree.io/f/{form_id}" method="POST">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-
-            <label for="comentario">Comentario:</label>
-            <textarea id="comentario" name="comentario" rows="5" required></textarea>
-
-            <label for="satisfaccion">Nivel de satisfacción:</label>
-            <select id="satisfaccion" name="satisfaccion" required>
-                <option value="">--Selecciona--</option>
-                <option value="Excelente">Excelente</option>
-                <option value="Bueno">Bueno</option>
-                <option value="Regular">Regular</option>
-                <option value="Malo">Malo</option>
-            </select>
-
-            <button type="submit">Enviar</button>
-        </form>
+       <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xwpavaql"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
     </section>
 
     <footer>
@@ -157,3 +155,4 @@
 
 </body>
 </html>
+
